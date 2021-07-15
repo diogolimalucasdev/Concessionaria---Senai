@@ -1,0 +1,83 @@
+body{
+  background-color: rgba(240, 240, 240, 0.979);
+}
+/* personalizar ogrupo de carrosel */
+.row{
+  width: 100%;
+  margin-top: 150px;
+ 
+}
+/* para personalizar cada carrosel */
+
+.divslider{
+  align-items: 50%;
+  height: 100%;
+  margin-left: 10px;
+  max-width: 100%;
+  min-width:100px;
+  position: relative;
+
+}
+/* Tamanho do container, onde fica as foo do carrosel */
+.container-slider{
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 10px;
+ 
+}
+
+
+.texto {
+  margin-left: 10px;
+  max-height: 100px;
+}
+
+.col-md-4{
+  margin-left: 10px;
+}
+.cardflex-md-rowmb-6shadow-smh-md-500{
+  margin-left: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2px;
+  width: 100%;
+  background-color: rgba(241, 219, 219, 0.8);
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: rgba(241, 219, 219, 0.979);
+  max-width: 100%;
+}
+
+a { color: inherit; }
+
+/* link que ainda não foi visitado */
+a:link {
+  color: red;
+}
+
+/* link que foi visitado */
+a:visited {
+   color: rgb(223, 13, 13);
+}
+
+/* mouse over */
+a:hover {
+   color: #000000;
+}
+
+/* link selecionado */
+a:active {
+   color: blue;
+}
+h6{
+  margin-left: 5px;
+  max-height: 100px;
+}

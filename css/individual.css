@@ -1,0 +1,50 @@
+
+  .texto {
+    margin-left: 10px;
+    max-height: 100px;
+  }
+
+  #carouselExampleControls{
+      margin-top: 120px;
+  }
+.area_tabela{
+  background-color: rgba(241, 219, 219, 0.8);
+  text-align: center;
+  width: 100%;
+  
+}
+
+
+
+.area_tabela table.Tabela{
+  text-align: center;
+  width: 100%;
+  padding-top: 70px;
+}
+
+
+
+h2.Titulo{
+  color: rgb(223, 13, 13); 
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  width: 100%;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: -2px;
+  width: 100%;
+  background-color: rgba(241, 219, 219, 0.8);
+}
+
+

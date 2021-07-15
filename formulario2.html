@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/logo/logomaior.png" type="image/png">
+  <title>Formulario</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/css2.css">
+
+
+
+</head>
+
+<body>
+
+  <header id="topo">
+    <!-- Navbar fixa -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html"> <img src="imagens/logo/imagemetexto.png" 
+        alt="Logo" width="100">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="bmw.html">Bmw </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="chevrolet.html">Chevrolet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fiat.html">Fiat </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Honda.html">Honda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hyundai.html">Hyundai </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="toyota.html">Toyota</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="volkswagem.html">Volkswagem</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <div class="container">
+    <form action="compra.html">
+      <div class="row">
+        <div class="col-25">
+          <label for="PrimeiroNome">Primeiro Nome</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="PrimeiroNome" name="PrimeiroNome" placeholder="Seu Nome..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="SegundoNome">Segundo Nome</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="SegundoNome" name="Segundo Nome" placeholder="SegundoNome..">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="Email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Email" name="Segundo Nome" placeholder="Email..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Telefonepracontato">Telefone pra contato</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Telefonepracontato" name="Segundo Nome" placeholder="Telefone pra contato..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Cidade">Cidade</label>
+        </div>
+        <div class="col-75">
+          <select id="Cidade" name="Cidade">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="Parcelas">Parcelas</label>
+        </div>
+        <div class="col-75">
+          <select id="Parcelas" name="Parcelas">
+            <option value="1">1x</option>
+            <option value="2">3x</option>
+            <option value="6">6x</option>
+            <option value="12">12x</option>
+            <option value="24">24x</option>
+            <option value="36">36x</option>
+            <option value="62">62x</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Observações">Observações</label>
+        </div>
+        <div class="col-75">
+          <textarea id="Observações" name="Observações" placeholder="Escreva alguma Observação.."
+            style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        
+      
+        <a class="btn btn-outline-danger" href="compra.html" role="button">Comprar </a>
+        <button class="btn btn-outline-danger" type="reset">Limpar</button>
+      </div>
+      </form>
+      </div>
+    
+  
+
+</body>
+
+</html>
